@@ -1,0 +1,14 @@
+
+
+rita en triangel
+varje sida är tre segment
+markera mittensegmentet med 1
+markera sido segmenten med 0
+
+om segment 1
+	ta längden på segmentet
+	skapa två nya segment med samma längd en med +60g en med -60 g.
+	dela det nya segmentet i 3
+		markera mitten med 1, och sidorna med 0
+	ta bort det "gamla" segmentet.
+	plotta ut linjerna på i en buffer.
