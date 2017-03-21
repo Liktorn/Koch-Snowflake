@@ -1,23 +1,23 @@
 #pragma once
+#include "Point.h"
+#include <math.h>
+
+using namespace bw;
+
 class Line
 {
 private:
-	int degree;
-	int length;
-	int segmentLength;
-	int x1;
-	int x2;
-	int x3;
-	int x4;
-	int y1;
-	int y2;
-	int y3;
-	int y4;
+	
 
 public:
+	Point a;
+	Point b;
+
 	Line();
+	Line(Point a, Point b) : a(a), b(b) { };
 	~Line();
 	void drawLine();
-	void calcMiddleSegment(int x1, int y1, int x4, int y4);
+
+
 };
 
